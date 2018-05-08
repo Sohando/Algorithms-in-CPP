@@ -23,3 +23,5 @@
 [Struct(1)](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Struct(1)).cpp)
 
 [Matrix](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Matrix).cpp)
+
+[Brute force](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Brute%20Force).cpp)
