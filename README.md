@@ -17,3 +17,5 @@
 [Optimal](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Optimal).cpp)
 
 [Visual](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Visual).cpp)
+
+[Multimap](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Multimap).cpp)
