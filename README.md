@@ -13,3 +13,5 @@
 [p_Q](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(p_Q).cpp)
 
 [Optimal](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Optimal).cpp)
+
+[Visual](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Visual).cpp)
