@@ -1,0 +1,24 @@
+If you want to use STL , then its a quite simple code actually.
+1) Create a dist[] array(initialised to 0), a mark[] (initialised to 0) array of the nodes and a priority_queue of datatype pair<int,int>.
+    The dist[] array will contain the minimum distance of the respective nodes from the source at a given instance in the execution of the program. At completion, it contains the desired Single Source Shortest Path.
+    The first element of the pair in priority_queue is the distance of the node from the source. The corresponding node number is stored as the second element in the pair. The priority_queue will be ordered according to the first element of the pair.
+
+2) Insert make_pair(0,<Source>) into the queue and update dist[<source>] = 0;
+mark[<source>] = 1;
+
+3) While the priority_queue is not empty,
+a) Extract the min_element(say,x) from queue.
+     mark[x] = 2;
+b) For all the neighbours of x(say y),
+     if(mark[y] == 0)
+          insert make_pair(dist[x] + cost[x][y],y) into the queue.
+          dist[y] = dist[x] + cost[x][y];
+          mark[y] = 1;
+     else if(mark[y] == 1 and dist[y] > dist[x] + cost[x][y])
+         erase make_pair(dist[y],y) from the queue.
+         dist[y] = dist[x] + cost[x][y]
+         insert make_pair(dist[y],y) into the queue.
+
+The final marked[] array contains 2 at those positions which are reachable from <source>. The dist[] array gives the Shortest Path Distance from Source.
+
+If you need to get shortest path also apart from just the shortest path length for all nodes, you can maintain a parent array and fill it accordingly in the 2nd step.
