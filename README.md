@@ -11,3 +11,5 @@
 [Set](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Set).cpp)
 
 [p_Q](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(p_Q).cpp)
+
+[Optimal](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Optimal).cpp)
