@@ -25,3 +25,7 @@
 [Matrix](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Matrix).cpp)
 
 [Brute force](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Dijkastra(Brute%20Force).cpp)
+
+# Topological Sort
+ 
+[BFS](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Topological_bfs.cpp)
