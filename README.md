@@ -29,3 +29,5 @@
 # Topological Sort
  
 [BFS](https://github.com/Sohando/Algorithms-in-CPP/blob/master/Topological_bfs.cpp)
+
+[DFS](https://github.com/Sohando/Algorithms-in-CPP/blob/master/topological_dfs.cpp)
