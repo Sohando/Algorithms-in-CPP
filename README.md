@@ -36,3 +36,7 @@
 # Segment Tree
 
 [Segment Tree](https://github.com/Sohando/Algorithms-in-CPP/blob/master/SegmentTree.cpp)
+
+# Sorting
+
+[quick sort](https://github.com/Sohando/Algorithms-in-CPP/blob/master/quick_sort.cpp)
