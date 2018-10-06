@@ -15,7 +15,6 @@ void backtrack(char str[], int depth, int length) {
 		}
 		printf("\n");
 	}
-	
 	for(int i=0; i<length; i++) {
 		if(Mp[str[i]] != 0) {
 			Mp[str[i]]--;
@@ -33,12 +32,10 @@ void backtrackhelper(char str[], int sz) {
 	for(int i=0; i<sz; i++) {
 		Mp[str[i]]++;
 	}
-	
 	int te= 0;
 	for(auto c : Mp) {
 		btr[te++] = c.first;
 	}
-	
 	backtrack(btr, 0, sz);
 }
 
