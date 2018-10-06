@@ -42,3 +42,6 @@
 [Quick Sort](https://github.com/Sohando/Algorithms-in-CPP/blob/master/quick_sort.cpp)
 
 [Merge Sort](https://github.com/Sohando/Algorithms-in-CPP/blob/master/mergesort.cpp)
+
+# BackTrack
+[String Permutation](https://github.com/Sohando/Algorithms-in-CPP/blob/master/StringPermutation.cpp)
