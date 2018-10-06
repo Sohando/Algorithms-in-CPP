@@ -16,11 +16,11 @@ void backtrack(char btr[], int depth, int length) {
 		printf("\n");
 	}
 	for(int i=0; i<length; i++) {
-		if(Mp[str[i]] != 0) {
-			Mp[str[i]]--;
+		if(Mp[btr[i]] != 0) {
+			Mp[btr[i]]--;
 			Ans[depth] = btr[i];
-			backtrack(str, depth+1, length);
-			Mp[str[i]]++;
+			backtrack(btr, depth+1, length);
+			Mp[btr[i]]++;
 		}
 	}
 }
