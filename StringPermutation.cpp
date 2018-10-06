@@ -8,7 +8,7 @@ void reset() {
 	Mp.clear();
 	memset(Ans, '.', sizeof(Ans));
 }
-void backtrack(char str[], int depth, int length) {
+void backtrack(char btr[], int depth, int length) {
 	if(depth == length) {
 		for(int i=0; i<length; i++) {
 			printf("%c", Ans[i]);
@@ -18,7 +18,7 @@ void backtrack(char str[], int depth, int length) {
 	for(int i=0; i<length; i++) {
 		if(Mp[str[i]] != 0) {
 			Mp[str[i]]--;
-			Ans[depth] = str[i];
+			Ans[depth] = btr[i];
 			backtrack(str, depth+1, length);
 			Mp[str[i]]++;
 		}
